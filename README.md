@@ -1,6 +1,7 @@
 # adjListe
 
-#
+# Références:
+
 # Algorithms | Find longest Snake sequence in a given matrix 
 # https://algorithms.tutorialhorizon.com/find-longest-snake-sequence-in-a-given-matrix/
 
