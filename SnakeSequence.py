@@ -1,5 +1,6 @@
-from csv import reader
 
+from csv import reader
+import codecs
 
 def getMaxSequence(matrix):
 
@@ -69,3 +70,8 @@ for k in range(len(sequence)):
 
 print("Longueur de la sequance : " , maxLenth)     
 print(sequence2)
+
+
+with codecs.open('matrix_adj_result.txt', 'w', "utf-8") as write_obj:
+    write_obj.write("Longueur de la séquance : " + str(maxLenth) + "\n")     
+    write_obj.write("Séquance : " + ", ".join(str(x) for x in sequence2))
