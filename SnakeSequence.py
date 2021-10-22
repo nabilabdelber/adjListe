@@ -68,10 +68,10 @@ sequence2 = []
 for k in range(len(sequence)):
     sequence2.append(sequence[len(sequence)-k-1])
 
-print("Longueur de la sequance : " , maxLenth)     
+print("Longueur de la séquence : " , maxLenth)     
 print(sequence2)
 
 
 with codecs.open('matrix_adj_result.txt', 'w', "utf-8") as write_obj:
-    write_obj.write("Longueur de la séquance : " + str(maxLenth) + "\n")     
-    write_obj.write("Séquance : " + ", ".join(str(x) for x in sequence2))
+    write_obj.write("Longueur de la séquence : " + str(maxLenth) + "\n")     
+    write_obj.write("Séquence : " + ", ".join(str(x) for x in sequence2))
